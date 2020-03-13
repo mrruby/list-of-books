@@ -1,0 +1,19 @@
+.action {
+  border: 1px solid black;
+  border-radius: 20px;
+  display: block;
+  background-color: white;
+  background-size: 200% 200%;
+  padding: 10px;
+  outline: none;
+}
+
+.text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  color: black;
+  transition: all 0.6s ease-out;
+  display: block;
+}

@@ -1,0 +1,30 @@
+.title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container {
+  width: 300px;
+  height: 450px;
+}
+
+.elements {
+  max-height: 340px;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 350px) {
+  .container {
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: #ececec;
+  }
+
+  .outer {
+    border-radius: 30px;
+    padding: 50px;
+    background-color: black;
+  }
+}

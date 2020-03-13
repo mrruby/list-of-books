@@ -1,0 +1,8 @@
+.element {
+  cursor: pointer;
+  user-select: none;
+}
+
+.selected {
+  font-weight: 800;
+}
